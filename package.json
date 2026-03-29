@@ -1,0 +1,29 @@
+{
+  "name": "trabalho15-03",
+  "version": "1.0.0",
+  "description": " projeto para exemplificar validação dos dado de entrada",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/gabipompeo/TRABALHO15-03#readme",
+  "bugs": {
+    "url": "https://github.com/gabipompeo/TRABALHO15-03/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabipompeo/TRABALHO15-03.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
