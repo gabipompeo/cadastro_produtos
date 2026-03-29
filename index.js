@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser';
 
 
 const host ='0.0.0.0'; 
-const porta = 3000; 
+const porta = process.env.PORT || 3000; 
 
 const app = express();
     var listaProdutos=[];
