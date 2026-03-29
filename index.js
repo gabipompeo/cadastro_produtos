@@ -22,6 +22,9 @@ app.use(session({
         maxAge: 1000 * 60 * 15} // 15 minutos
 }));
 
+app.get("/", (req, res) => {
+    res.redirect("/login")
+});
 
 app.get('/menu',veri,(req,res)=>{
     res.write(`<html lang="pt-br">
