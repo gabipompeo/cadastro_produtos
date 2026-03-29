@@ -506,7 +506,7 @@ function veri(requisicao, resposta, proximo){
         resposta.redirect("/login")
 }
 }
-
-app.listen(porta,host,()=>{
-    console.log(`Servidor rodando em http://${host}:${porta}`);
-})
+export default app;
+//app.listen(porta,host,()=>{
+   // console.log(`Servidor rodando em http://${host}:${porta}`);
+//})
